@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="516.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="student.StudentsController">
+   <children>
+      <TabPane layoutX="-1.0" prefHeight="516.0" prefWidth="824.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Library" />
+          <Tab onSelectionChanged="#init" text="Chat">
+               <content>
+                  <AnchorPane prefHeight="405.0" prefWidth="706.0">
+                     <children>
+                        <TextArea fx:id="show" prefHeight="438.0" prefWidth="824.0" />
+                        <TextField fx:id="mess" layoutY="438.0" prefHeight="42.0" prefWidth="824.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

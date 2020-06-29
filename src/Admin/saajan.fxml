@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="726.0" prefWidth="1177.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin.AdminController">
+   <children>
+      <AnchorPane prefHeight="726.0" prefWidth="388.0" style="-fx-background-color: #1D2026;">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="298.0" prefWidth="388.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="89.0" prefWidth="388.0" text="Student Profile" textFill="#eee9e9">
+                     <font>
+                        <Font name="System Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="178.0" fitWidth="164.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="/icon/imgonline-com-ua-shape-E5OPKb5eJaQEj.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+            </VBox>
+            <Label layoutX="40.0" layoutY="333.0" prefHeight="36.0" prefWidth="322.0" text="Name:  Saajan Kumar Jha" textFill="#fcf2f2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Label>
+            <Label layoutX="40.0" layoutY="376.0" prefHeight="36.0" prefWidth="322.0" text="Class: TE-CS" textFill="#fcf2f2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Label>
+            <Label layoutX="40.0" layoutY="422.0" prefHeight="36.0" prefWidth="322.0" text="Roll No: 13" textFill="#fcf2f2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Label>
+            <Label layoutX="40.0" layoutY="467.0" prefHeight="36.0" prefWidth="328.0" text="Email:  saajanjha1998@gmail.com" textFill="#fcf2f2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Label>
+            <Label layoutX="40.0" layoutY="512.0" prefHeight="36.0" prefWidth="322.0" text="Mob: 8080562443" textFill="#fcf2f2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Label>
+         </children>
+      </AnchorPane>
+      <HBox layoutX="420.0" prefHeight="73.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="76.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="/icon/hello.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="75.0" prefWidth="134.0" text="Hey there...!">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#7ff5f0" />
+                        <Stop color="#242fa8" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </HBox>
+      <Pane layoutX="388.0" layoutY="73.0" opacity="0.77" prefHeight="166.0" prefWidth="793.0" style="-fx-background-color: #1D2026;">
+         <children>
+            <Label layoutX="232.0" layoutY="83.0" prefHeight="57.0" prefWidth="549.0" text="Shree L.R Tiwari College Of Engineering" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Italic" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="193.0" fitWidth="200.0" layoutX="424.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/icon/clg_logo-removebg.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="632.0" layoutY="240.0" prefHeight="49.0" prefWidth="96.0" text="Batch Of" textFill="#27542f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="632.0" layoutY="289.0" text="2016-17" textFill="#328644">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="805.0" layoutY="251.0" text="Department" textFill="#2d6b43">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="805.0" layoutY="289.0" text="Computer Engineering" textFill="#539460">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="350.0" prefHeight="42.0" prefWidth="184.0" text="Academics" textFill="#e00202">
+         <font>
+            <Font name="Constantia" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="490.0" layoutY="425.0" text="Year" textFill="#138a25">
+         <font>
+            <Font name="Stencil" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="736.0" layoutY="422.0" text="SEM" textFill="#0b7c22">
+         <font>
+            <Font name="Stencil" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="980.0" layoutY="422.0" text="CGPA" textFill="#138a25">
+         <font>
+            <Font name="Stencil" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="511.0" layoutY="487.0" text="1">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="742.0" layoutY="487.0" text="ODD">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="742.0" layoutY="534.0" text="EVEN">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1006.0" layoutY="487.0" text="9">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1006.0" layoutY="534.0" text="8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="511.0" layoutY="596.0" text="2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="742.0" layoutY="596.0" text="ODD">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="742.0" layoutY="641.0" text="EVEN">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1006.0" layoutY="596.0" text="9">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1006.0" layoutY="641.0" text="8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="65.0" fitWidth="70.0" layoutX="1102.0" layoutY="4.0" onMouseClicked="#prev" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/icon/reply.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

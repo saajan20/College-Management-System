@@ -1,0 +1,13 @@
+.Button{
+-fx-background-color:#1976D2;
+-fx-text-fill:white;
+}
+.Button:hover{
+-fx-background-color:#388E3C;
+}
+.text{
+-fx-background-color:transparent;
+-fx-border-width: 0px 0px 2px 0px;
+-fx-border-color:black;
+
+}

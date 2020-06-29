@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: #D0D3D4;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="162.0" layoutY="92.0" prefHeight="71.0" prefWidth="453.0" text="WHAT DO YOU WANT TO DO? CHOOSE A OPTION" textFill="#205a87">
+         <font>
+            <Font name="Britannic Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="51.0" layoutY="203.0" mnemonicParsing="false" prefHeight="194.0" prefWidth="174.0" style="-fx-background-color: #FF0000;" text="Capture" textFill="#2c0404">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="288.0" layoutY="203.0" mnemonicParsing="false" prefHeight="194.0" prefWidth="174.0" style="-fx-background-color: #3498DB;" text="Recognize">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="528.0" layoutY="203.0" mnemonicParsing="false" prefHeight="194.0" prefWidth="174.0" style="-fx-background-color: #F4D03F;" text="Data" textFill="#1e0101">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="344.0" layoutY="55.0" prefHeight="21.0" prefWidth="102.0" text="MENU">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

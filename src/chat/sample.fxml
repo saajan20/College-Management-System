@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chat.Main">
+   <children>
+      <TextArea fx:id="messages" editable="false" layoutY="-2.0" onMouseClicked="#init" onTouchPressed="#init" prefHeight="406.0" prefWidth="600.0" style="-fx-background-color: #B62C19;" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <TextField fx:id="input" layoutY="404.0" onAction="#in" prefHeight="42.0" prefWidth="600.0" promptText="Enter your message here...." style="-fx-background-color: #BFE2FF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="404.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>
