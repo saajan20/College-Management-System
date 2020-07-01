@@ -1,6 +1,6 @@
 # College-Management-System
 
-This project is a JavaFX project based on computer vision, networking and DBMS. It allows the user(college faculty or librarian) to perform their tasks more efficiently. 
+This is a JavaFX project based on computer vision, networking and DBMS. It allows the user(college faculty or librarian) to perform their tasks more efficiently. 
 
 **The college faculty can perform the following:**
 1. CRUD operations on students data.
