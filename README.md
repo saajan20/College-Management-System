@@ -18,7 +18,7 @@ This project is a JavaFX project based on computer vision, networking and DBMS. 
 
 * Facial detection is done using haar cascade classifier algorithm and facial recognition is done using lbph algorithm.
 * The chatting module is implemented using java socket programming where the faculty is the server socket and student is the client socket.
-* The project uses sqlite database.
+* The project uses sqlite database and JDK 1.8.0_121.
 
 ### Snapshots
 
@@ -26,4 +26,4 @@ This project is a JavaFX project based on computer vision, networking and DBMS. 
 
 <img src="img/face.png" width=48%>      <img src="img/library.png" width=48%>
 
-<img src="img/issue.png" width=50%>
+<img src="img/issue.jpg" width=50%>
